@@ -1,7 +1,8 @@
 .content {
     width: 875px;
     margin: 0 auto;
-    position: static;
+    position: relative;
+    height: 220px;
 }
 
 .equation {
@@ -17,6 +18,10 @@
     display: inline-block;
 }
 
+.equation__elem {
+    border-radius: 6px
+}
+
 .equation__sum {
     width: 60px;
     font-size: 40px;
@@ -27,21 +32,26 @@
 .intervals-box {
     margin-left: 36px;
     font-size: 0;
-}
-
-.interval {
+    height: 200px;
+    vertical-align: bottom;
     display: inline-block;
     position: relative;
+}
+
+.interval {   
     z-index: 2;
     padding: 0;
     margin: 0;
     white-space: nowrap;
-    vertical-align: bottom;
     text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .interval p {
+    display: block;
     font-size: 20px;
+    margin: auto;
 }
 
 .interval img {
@@ -61,4 +71,10 @@
 .axis {
     position: relative;
     bottom: 24px;
+}
+
+.axis-box {
+    position: absolute;
+    bottom: 0;
+    height: 150px;
 }
