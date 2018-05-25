@@ -1,0 +1,64 @@
+.content {
+    width: 875px;
+    margin: 0 auto;
+    position: static;
+}
+
+.equation {
+    height: 100px;
+    width: 875px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.equation div {
+    display: inline-block;
+}
+
+.equation__sum {
+    width: 60px;
+    font-size: 40px;
+    border: 1px solid #41565e;
+    border-radius: 6px;
+}
+
+.intervals-box {
+    margin-left: 36px;
+    font-size: 0;
+}
+
+.interval {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.interval p {
+    font-size: 20px;
+}
+
+.interval img {
+    display: block;
+    padding: 0;
+}
+
+.interval input {
+    width: 15px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #41565e;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.axis {
+    position: relative;
+    bottom: 24px;
+}
